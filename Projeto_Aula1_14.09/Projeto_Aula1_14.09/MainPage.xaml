@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 mc:Ignorable="d"
+			 x:Class="Projeto_Aula1_14._09.MainPage">
+	<ScrollView BackgroundColor="Beige">
+		<StackLayout Orientation="Vertical"
+			VerticalOptions="Center">
+			<Label Text="Inciando o estudo do Xamarin!" 
+				   FontSize="30"
+				   FontAttributes="Bold"
+				   TextColor="#255580"
+				   FontFamily="Arial"
+				   HorizontalTextAlignment="Center"/>
+			<Label Text="Prof. Ricardo Lima Amaral" 
+				   FontSize="20"
+				   TextColor="Purple"
+				   FontAttributes="Bold"    
+				   BackgroundColor="Azure"
+				   HorizontalTextAlignment="Center"
+				   VerticalTextAlignment="Center"
+				   WidthRequest="30"
+				   HeightRequest="50" />
+			<Image Source="https://www.diariodasaude.com.br/news/imgs/010130170321-sol-ativa-sistema-imunologico.jpg"/>
+			<Image Source="img/arvore.jpg" HeightRequest="150"/>
+			<Button Text="OK"
+					Padding="20"
+					HorizontalOptions="Center" 
+					BackgroundColor="DarkCyan" 
+					TextColor="Aquamarine" 
+					FontAttributes="Bold" 
+					FontSize="40" 
+					Clicked="btenviar"/>
+		</StackLayout>
+	</ScrollView>
+</ContentPage>
